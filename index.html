@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Legal — Pulse</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --fg: #1a1a1a;
+        --muted: #555;
+        --bg: #fafafa;
+        --card: #fff;
+        --border: #e0e0e0;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --fg: #eee;
+          --muted: #aaa;
+          --bg: #121212;
+          --card: #1e1e1e;
+          --border: #333;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        line-height: 1.5;
+        max-width: 40rem;
+        margin: 2rem auto;
+        padding: 0 1.25rem;
+        color: var(--fg);
+        background: var(--bg);
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      ul {
+        padding-left: 1.25rem;
+      }
+      a {
+        color: #2563eb;
+      }
+      @media (prefers-color-scheme: dark) {
+        a {
+          color: #93c5fd;
+        }
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 1.25rem 1.5rem;
+      }
+      .note {
+        font-size: 0.875rem;
+        color: var(--muted);
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Legal documents</h1>
+    <div class="card">
+      <p>Policies for <strong>Pulse</strong>.</p>
+      <ul>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="terms-of-service.html">Terms of Service</a></li>
+      </ul>
+    </div>
+    <p class="note">
+      Replace bracketed placeholders (e.g. <code>[CONTACT_EMAIL]</code>) in the HTML files before publishing.
+      These templates are not legal advice.
+    </p>
+  </body>
+</html>
